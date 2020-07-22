@@ -1,3 +1,10 @@
 # controlArduino
-Un control para manejar via bluetooth un robot de arduino
+## Un control para manejar vía bluetooth un robot de Arduino
+Las flechas son animaciones en *.json* que se encuentran en la carpeta /app/src/main/assets.
+
+Al presionar la flecha de arriba escribe una "G" que será la que se le envía al Arduino. La flecha para la derecha escribe "H", la de la izquierda "J", la de abajo "K" y el botón de pausa escribe una "I"
+
+El desconectar sirve para cerrar la aplicación y terminar la conexión con el bluetooth.
+
+
 ![alt text](image/FrontEnd.jpeg)
