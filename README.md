@@ -11,3 +11,5 @@ En este video se puede observar el funcionamiento https://youtu.be/IHpkwLIOrMM
 La aplicacion fue creada en Android Studio.
 
 ![alt text](image/FrontEnd.jpeg)
+
+![alt text](image/FrontEnd.jpeg)
