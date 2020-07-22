@@ -6,6 +6,8 @@ Al presionar la flecha de arriba escribe una "G" que será la que se le envía a
 
 El desconectar sirve para cerrar la aplicación y terminar la conexión con el bluetooth.
 
+En este video se puede observar el funcionamiento https://youtu.be/IHpkwLIOrMM
+
 La aplicacion fue creada en Android Studio.
 
 ![alt text](image/FrontEnd.jpeg)
