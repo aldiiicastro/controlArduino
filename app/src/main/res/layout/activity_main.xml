@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    android:backgroundTint="#FFFFFF"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/btnDesconectar"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="@string/strdesc"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        android:text="@string/control_via_bluetooth"
+        android:textAlignment="center"
+        android:textColor="#0BB4CA"
+        android:textColorHighlight="#FFFFFF"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <com.airbnb.lottie.LottieAnimationView
+        android:id="@+id/arrowRight"
+        android:layout_width="108dp"
+        android:layout_height="100dp"
+        android:scaleType="centerInside"
+        app:layout_constraintBottom_toBottomOf="@+id/pause"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.527"
+        app:layout_constraintStart_toEndOf="@+id/pause"
+        app:lottie_fileName="arrowright.json"
+        app:lottie_imageAssetsFolder="assets" />
+
+    <com.airbnb.lottie.LottieAnimationView
+        android:id="@+id/arrowLeft"
+        android:layout_width="108dp"
+        android:layout_height="100dp"
+        android:layout_marginStart="4dp"
+        android:scaleType="fitStart"
+        app:layout_constraintBottom_toBottomOf="@+id/pause"
+        app:layout_constraintEnd_toStartOf="@+id/pause"
+        app:layout_constraintStart_toStartOf="parent"
+        app:lottie_fileName="arrowleft.json"
+        app:lottie_imageAssetsFolder="assets" />
+
+    <com.airbnb.lottie.LottieAnimationView
+        android:id="@+id/arrowDown"
+        android:layout_width="108dp"
+        android:layout_height="100dp"
+        android:scaleType="fitStart"
+        app:layout_constraintBottom_toTopOf="@+id/btnDesconectar"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.501"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/pause"
+        app:layout_constraintVertical_bias="0.418"
+        app:lottie_fileName="arrowdown.json"
+        app:lottie_imageAssetsFolder="assets" />
+
+    <com.airbnb.lottie.LottieAnimationView
+        android:id="@+id/arrowUp"
+        android:layout_width="108dp"
+        android:layout_height="100dp"
+        android:scaleType="fitStart"
+        app:layout_constraintBottom_toTopOf="@+id/pause"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView2"
+        app:lottie_fileName="arrowup.json"
+        app:lottie_imageAssetsFolder="assets" />
+
+    <com.airbnb.lottie.LottieAnimationView
+        android:id="@+id/pause"
+        android:layout_width="108dp"
+        android:layout_height="100dp"
+        android:scaleType="fitStart"
+        app:layout_constraintBottom_toTopOf="@+id/btnDesconectar"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:lottie_fileName="pause.json"
+        app:lottie_imageAssetsFolder="assets" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:contentDescription="@string/strdesc"
+        android:text="Aldana Castro"
+        app:layout_constraintBottom_toTopOf="@+id/btnDesconectar"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

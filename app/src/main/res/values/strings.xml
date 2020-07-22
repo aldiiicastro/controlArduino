@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">ControlRobot</string>
+    <string name="strconten">IMAGEN</string>
+    <string name="strdesc">DESCONECTAR</string>
+    <string name="stresc">Escriba un texto</string>
+    <string name="strResp">Respuesta</string>
+    <string name="strAnimaion">ANIMACION</string>
+    <string name="control_via_bluetooth">CONTROL VIA BLUETOOTH</string>
+</resources>
