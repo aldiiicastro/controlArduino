@@ -12,4 +12,8 @@ La aplicacion fue creada en Android Studio.
 
 ![alt text](image/FrontEnd.jpeg)
 
-![alt text](image/FrontEnd.jpeg)
+![alt text](image/Robot-1.jpeg)
+
+![alt text](image/Robot-2.jpg)
+
+![alt text](image/Robot-3.jpg)
